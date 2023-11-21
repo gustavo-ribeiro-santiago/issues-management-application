@@ -54,7 +54,7 @@ for (let i = 3; i < 14; i++){
   <div class="carousel-item">
     <img src="images/issues_${i}.jpg" class="d-block w-75 position-relative start-50 translate-middle-x rounded-2 border-1" style="border-style:solid" alt="Issues Management Application Print Screen">
     <div class="carousel-caption d-none d-md-block position-relative start-0 top-100 mt-3 pb-0">
-      <h5>${descriptions[i-3].title}</h5>
+      <h6>${descriptions[i-3].title}</h6>
       <p class="mb-1">${descriptions[i-3].text}</p>
     </div>
   </div>`
