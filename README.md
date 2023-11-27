@@ -2,7 +2,7 @@
 
 ## Description
 
-In 2021, a comprehensive project was developed using Power Apps and Power BI for a mining company. This solution streamlined the management of stakeholders and issues, providing an efficient platform for tracking, communication, and resolution within the mining operations.
+Application developed in 2021 using Power Apps and Power BI as part of a consulting project to a mining company. The application helped users track governmental issues and stakeholders relevant to the company.
 
 Access [gustavo-ribeiro-santiago.github.io/issues-management-project](gustavo-ribeiro-santiago.github.io/issues-management-project) to view commented print screens of the application.
 
