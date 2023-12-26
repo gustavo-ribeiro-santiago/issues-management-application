@@ -1,6 +1,6 @@
 const carouselImages = document.getElementById('carouselImages');
 const carouselIndicators = document.getElementById('carouselIndicators');
-const descriptions = [
+const captions = [
   {
     title: 'Navigation Bar Options',
     text: 'The user can click to register new issues or search for existing ones directly from the navigation bar.',
@@ -51,14 +51,22 @@ const descriptions = [
 
 for (let i = 3; i < 14; i++) {
   carouselImages.innerHTML += `
-  <figure class="carousel-item">
-    <img src="images/issues_${i}.jpg" class="slide-img d-block rounded-2 border-1" alt="Issues Management Application Print Screen">
-    <figcaption class="carousel-caption custom-caption mt-2 pb-0">
-      <h6>${descriptions[i - 3].title}</h6>
-      <p class="mb-1">${descriptions[i - 3].text}</p>
-    </figcaption>
-  </figure>`;
-  carouselIndicators.innerHTML += `<button type="button" data-bs-target="#carousel" data-bs-slide-to="${
-    i - 1
-  }" aria-label="Slide ${i}"></button>`;
+    <figure class="carousel-item">
+      <img 
+        src="images/issues_${i}.jpg" 
+        class="slide-img d-block rounded-2 border-1" 
+        alt="Issues Management Application Print Screen"
+      >
+      <figcaption class="carousel-caption custom-caption mt-2 pb-0">
+        <h6>${captions[i - 3].title}</h6>
+        <p class="mb-1">${captions[i - 3].text}</p>
+      </figcaption>
+    </figure>`;
+  carouselIndicators.innerHTML += `
+    <button 
+      type="button" 
+      data-bs-target="#carousel" 
+      data-bs-slide-to="${i - 1}" 
+      aria-label="Slide ${i}"
+    ></button>`;
 }
