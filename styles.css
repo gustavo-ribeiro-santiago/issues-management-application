@@ -1,13 +1,5 @@
-.nav-bar {
-  opacity: 0.9;
-}
-
 .nav-title {
   font-size: large;
-}
-
-.title {
-  padding-top: 130px;
 }
 
 .description {
@@ -39,9 +31,7 @@ figure .custom-caption {
 }
 
 @media (min-width: 768px) {
-  .title{
-    padding-top: 90px;
-  }
+  
   .slides-carousel{
     width: 75%;
     left: 50%;
